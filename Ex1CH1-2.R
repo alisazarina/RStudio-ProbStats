@@ -21,8 +21,8 @@ days=c(11, 14, 18, 7, 11, 16, 31, 6, 11, 8, 9)
 mean(days)
 median(days)
 range(days)
-r = 31-6 #RANGE
-r #PRINT RANGE
+r = 31-6        #RANGE
+r               #PRINT RANGE
 var(days)
 sd(days)
 
