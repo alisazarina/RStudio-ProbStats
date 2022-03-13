@@ -73,7 +73,7 @@ plot(statsStudents2, ylab = "Marks", xlab = "Students",
      pch = 8, cex = 1.5, col = c("blue", "green"),
      main = "Marks vs Students")
 
-#notes on scatter plot design
+#Notes on scatter plot design
 ## pch : point shapes/plot symbols
 ## col : color (code or name) to use for the points
 ## bg : the background (or fill) color for the open plot symbols. It can be used only when pch = 21:25.
