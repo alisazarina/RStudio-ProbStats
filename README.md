@@ -1,8 +1,7 @@
 # RStudio-ProbStats
 This is a collection of R programming tutorials, assignments and projects for IGB20303 Probability and Statistics for IT.
 
-Ex2-CH1-2-GraphsAll.R
-Wk3 Exercise
+Ex2-CH1-2-GraphsAll.R -- Wk3 Exercise (my answers)
 
 ## Graphs attached here:
 
