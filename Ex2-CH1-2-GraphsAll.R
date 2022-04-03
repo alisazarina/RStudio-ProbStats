@@ -18,14 +18,17 @@ for (i in 1:4) {
 
 #Q1
 comaDays=c(11, 14, 18, 7, 11, 16, 31, 6, 11, 8, 9)
-#construct a table
-table(comaDays)
+
+# #construct a table                                              // [CTRL + SHIFT + C] = to comment out
+# table(comaDays)                                                 // don't need to construct a table!!
+
 #draw bar chart/barplot
-barplot(table(comaDays))
+barplot(comaDays)
+
 #design the bar chart
-barplot(table(comaDays), main = "Number of Days Posttraumatic Amnesia Patients in Coma",
+barplot(comaDays, main = "Number of Days Posttraumatic Amnesia Patients in Coma",
         ylab = "Number of Days", xlab = "Patients",
-        col = c("dark green"),
+        col = "dark green",
         space = 0.08)
 
 #####
@@ -33,12 +36,12 @@ barplot(table(comaDays), main = "Number of Days Posttraumatic Amnesia Patients i
 
 #Q2
 slices = c(21, 62, 10, 53)
-lbls = c("London", "New York", "Singapore", "Mumbai")
+lbls = c("London", "New York", "Singapore", "Mumbai")               #can also be: labels = c("London", "New York",.)
 #draw a pie chart + design
 pie(slices, labels = lbls, main = "City Pie Chart",
     col=rainbow(length(lbls)))
 #add legend
-legend("topright", c(lbls), fill = rainbow(length(lbls)))
+legend("topright", c(lbls), fill = rainbow(length(lbls)))           #cex => to adjust the size of the legend, eg. "cex = 0.4"
 
 
 #####
