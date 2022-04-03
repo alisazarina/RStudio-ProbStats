@@ -59,6 +59,23 @@ boxplot(table(statsStudents1))
 boxplot(statsStudents1, ylab = "Height", xlab = "Students",
         main = "Height vs Number of students", col = "light blue")
 
+#if box plot for >1 data -- example:
+#box plot 1
+height = c(59, 60, 61, 62, 62, 63, 63, 64, 64, 64, 65,65, 65, 65, 65, 
+         65, 65, 65, 65, 66, 66, 67, 67, 68, 68, 69, 70, 70, 70, 70,
+         70, 71, 71, 72,72, 73, 74, 74, 75, 77)
+
+#box plot 2
+data = c(60, 60, 65, 62, 62, 63, 63, 64, 64, 64, 65, 65, 65, 65, 65,
+         65, 65, 65, 65, 66, 66, 67, 67, 68, 68, 69, 70, 71, 71, 70,
+         70, 71, 71, 72, 72, 73, 78, 74, 75, 77)
+
+#draw the two box plots
+boxplot(height, data)
+
+#change color of box plots
+boxplot(height, data, col = c("blue", "green"))
+
 
 #####
 
@@ -67,7 +84,7 @@ boxplot(statsStudents1, ylab = "Height", xlab = "Students",
 statsStudents2=c(59, 60, 61, 62, 62, 63, 63, 64, 64, 64, 65,65, 65, 65, 65, 
                  65, 65, 65, 65, 66, 66, 67, 67, 68, 68, 69, 70, 70, 70, 70,
                  70, 71, 71, 72,72, 73, 74, 74, 75, 77)
-#construct a table
+#construct a table -- don't need to actually! just straight to plot, ie. plot(statsStudents2)
 table(statsStudents2)
 #draw a scatter plot
 plot(statsStudents2)
