@@ -159,3 +159,4 @@ pnorm(20, mean = 21, sd = 5, lower.tail = TRUE) - pnorm(10, mean = 21, sd = 5, l
 qnorm(0.025, mean = 21, sd = 5, lower.tail = TRUE)      # 11.20
 ## xupper
 qnorm(0.025, mean = 21, sd = 5, lower.tail = FALSE)     # 30.79
+
