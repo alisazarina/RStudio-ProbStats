@@ -54,7 +54,7 @@ statsStudents1=c(59, 60, 61, 62, 62, 63, 63, 64, 64, 64, 65,65, 65, 65, 65,
 #construct a table
 table(statsStudents1)
 #draw a box plot
-boxplot(table(statsStudents1))
+boxplot(table(statsStudents1))                              # actually not necessary!
 #change colour of box to blue
 boxplot(statsStudents1, ylab = "Height", xlab = "Students",
         main = "Height vs Number of students", col = "light blue")
